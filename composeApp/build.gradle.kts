@@ -62,11 +62,11 @@ kotlin {
 }
 
 android {
-    namespace = "com.jetbrains.kmpapp"
+    namespace = "com.akrafts.addon"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.jetbrains.kmpapp"
+        applicationId = "com.akrafts.addon"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
