@@ -1,12 +1,12 @@
-package com.jetbrains.kmpapp.di
+package com.akrafts.addon.di
 
-import com.jetbrains.kmpapp.data.InMemoryMuseumStorage
-import com.jetbrains.kmpapp.data.KtorMuseumApi
-import com.jetbrains.kmpapp.data.MuseumApi
-import com.jetbrains.kmpapp.data.MuseumRepository
-import com.jetbrains.kmpapp.data.MuseumStorage
-import com.jetbrains.kmpapp.screens.detail.DetailViewModel
-import com.jetbrains.kmpapp.screens.list.ListViewModel
+import com.akrafts.addon.data.InMemoryMuseumStorage
+import com.akrafts.addon.data.KtorMuseumApi
+import com.akrafts.addon.data.MuseumApi
+import com.akrafts.addon.data.MuseumRepository
+import com.akrafts.addon.data.MuseumStorage
+import com.akrafts.addon.screens.detail.DetailViewModel
+import com.akrafts.addon.screens.list.ListViewModel
 import io.ktor.client.HttpClient
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.http.ContentType
