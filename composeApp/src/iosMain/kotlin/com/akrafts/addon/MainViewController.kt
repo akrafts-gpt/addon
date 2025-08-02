@@ -1,4 +1,4 @@
-package com.jetbrains.kmpapp
+package com.akrafts.addon
 
 import androidx.compose.ui.window.ComposeUIViewController
 
